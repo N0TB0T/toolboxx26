@@ -1,0 +1,8 @@
+# build artifacts
+toolboxx.sketchplugin
+
+# npm
+node_modules
+
+# mac
+.DS_Store

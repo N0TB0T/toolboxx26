@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "name": "ToolBoxx",
+  "version": "0.3.828",
+  "description": "Sketch productivity tools — public release",
+  "author": "NotBot",
+  "commands": [
+    {
+      "name": "Rename Layer After Content",
+      "identifier": "toolboxx.renameLayerAfterContent",
+      "script": "renameLayer.js"
+    }
+  ],
+  "menu": {
+    "title": "ToolBoxx",
+    "items": [
+      "toolboxx.renameLayerAfterContent"
+    ]
+  }
+}
