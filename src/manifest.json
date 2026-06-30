@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
   "icon": "icon.png",
   "name": "ToolBoxx",
-  "version": "0.3.828",
+  "version": "0.3.832",
   "description": "Sketch productivity tools — public release",
   "author": "NotBot",
   "commands": [
