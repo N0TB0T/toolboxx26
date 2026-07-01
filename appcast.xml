@@ -6,7 +6,7 @@
     <description>Sketch productivity tools — public release</description>
     <language>en</language>
     <item>
-      <enclosure url="https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-0.3.837-20260701.zip" sparkle:version="0.3.837"/>
+      <enclosure url="https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-1.0.0-20260701.zip" sparkle:version="1.0.0"/>
     </item>
   </channel>
 </rss>

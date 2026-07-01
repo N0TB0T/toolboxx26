@@ -4,7 +4,7 @@ Sketch productivity tools — public release.
 
 ## Download
 
-[ToolBoxx-0.3.837-20260701.zip](https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-0.3.837-20260701.zip)
+[ToolBoxx-1.0.0-20260701.zip](https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-1.0.0-20260701.zip)
 
 ## Installation
 
@@ -24,6 +24,6 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 ## Versionshistorie
 
-### 0.3.837 (2026-07-01)
+### 1.0.0 (2026-07-01)
 
 - Erstes öffentliches Release: **Anonymize**
