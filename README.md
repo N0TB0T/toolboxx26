@@ -6,7 +6,7 @@ Sketch productivity tools — public release.
 
 | Tool | Shortcut | Was es tut |
 |---|---|---|
-| Rename Layer After Content | — | Benennt ausgewählte Ebenen nach dem enthaltenen Symbol (SymbolInstance → Master-Name, SymbolMaster → eigener Name, Gruppe/Frame → erstes Symbol-Kind). |
+| Anonymize | `ctrl shift x` | Anonymisiert Text- und Symbol-Override-Inhalte formaterhaltend (Xxx 00 / Lorem / Blackout / aus Text). Erkennt Einheiten und lässt sie stehen; mehrdeutige Tokens werden im Review-Panel abgefragt (mit ↗ Sprung zur Fundstelle im Canvas). |
 
 ## Installation
 

@@ -2,20 +2,21 @@
   "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
   "icon": "icon.png",
   "name": "ToolBoxx",
-  "version": "0.3.832",
+  "version": "0.3.836",
   "description": "Sketch productivity tools — public release",
   "author": "NotBot",
   "commands": [
     {
-      "name": "Rename Layer After Content",
-      "identifier": "toolboxx.renameLayerAfterContent",
-      "script": "renameLayer.js"
+      "name": "Anonymize",
+      "identifier": "toolboxx.anonymize",
+      "script": "anonymize.js",
+      "shortcut": "ctrl shift x"
     }
   ],
   "menu": {
     "title": "ToolBoxx",
     "items": [
-      "toolboxx.renameLayerAfterContent"
+      "toolboxx.anonymize"
     ]
   }
 }
