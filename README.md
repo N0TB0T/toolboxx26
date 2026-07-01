@@ -2,25 +2,28 @@
 
 Sketch productivity tools — public release.
 
-## Tools
+## Download
+
+[ToolBoxx-0.3.837-20260701.zip](https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-0.3.837-20260701.zip)
+
+## Installation
+
+1. Zip-Datei herunterladen
+2. Entzippen — es erscheint `ToolBoxx.sketchplugin`
+3. Doppelklick auf die `.sketchplugin`-Datei — Sketch installiert das Plugin automatisch
+
+## Automatische Updates
+
+Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version verfügbar ist, und bietet die Installation an — kein manueller Download nötig.
+
+## Funktionen
 
 | Tool | Shortcut | Was es tut |
 |---|---|---|
 | Anonymize | `ctrl shift x` | Anonymisiert Text- und Symbol-Override-Inhalte formaterhaltend (Xxx 00 / Lorem / Blackout / aus Text). Erkennt Einheiten und lässt sie stehen; mehrdeutige Tokens werden im Review-Panel abgefragt (mit ↗ Sprung zur Fundstelle im Canvas). |
 
-## Installation
+## Versionshistorie
 
-- [Download](../../releases/latest/download/toolboxx.sketchplugin.zip) the latest release
-- Un-zip and double-click the `.sketchplugin`
+### 0.3.837 (2026-07-01)
 
-## Development
-
-```bash
-npm install
-npm run build      # or: npm run watch
-```
-
-Built with [skpm](https://github.com/skpm/skpm).
-
----
-_Public release. Generated from the private toolboxx repo via its release allowlist — do not edit `src/` here by hand._
+- Erstes öffentliches Release: **Anonymize**
