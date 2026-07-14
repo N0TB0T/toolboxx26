@@ -4,7 +4,7 @@ Sketch productivity tools — public release.
 
 ## Download
 
-[ToolBoxx-1.1.1-20260713.zip](https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-1.1.1-20260713.zip)
+[ToolBoxx-1.1.2-20260714.zip](https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-1.1.2-20260714.zip)
 
 ## Installation
 
@@ -24,6 +24,10 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 | Contrast Measure | `ctrl shift k` | Misst WCAG-2.1-Kontrast (+ ΔE2000-Farbabstand) für ein Vorder-/Hintergrund-Paar. Farben per Ein-Klick-Screen-Pipette, Hex oder aus der Selektion (Overrides + Symbol-Farben mit Swatch-Namen, inkl. Library). Ergebnis kopierbar. |
 
 ## Versionshistorie
+
+### 1.1.2 (2026-07-14)
+
+- Performance-Verbesserungen im Contrast-Panel bei längeren Sessions (Render-Loop-Optimierung).
 
 ### 1.1.1 (2026-07-13)
 
