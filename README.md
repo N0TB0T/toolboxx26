@@ -27,4 +27,8 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 ### 1.1.1 (2026-07-13)
 
-- Erstes öffentliches Release: **Anonymize**
+- Neu: **Contrast Measure** — WCAG-2.1-Kontrast + Farbabstand (ΔE2000). Farbwahl per Ein-Klick-Screen-Pipette, Hex oder aus der Selektion (Overrides + Symbol-Farben mit Swatch-Namen, inkl. Library).
+
+### 1.0.0 (2026-07-01)
+
+- Erstes öffentliches Release: **Anonymize** — formaterhaltende Anonymisierung von Text- und Symbol-Override-Inhalten.
