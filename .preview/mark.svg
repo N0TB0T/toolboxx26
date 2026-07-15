@@ -19,7 +19,7 @@
       }
 
       .cls-1, .cls-6 {
-        fill: #ededed;
+        fill: none;
       }
 
       .cls-2, .cls-3, .cls-4, .cls-5 {
