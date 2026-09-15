@@ -28,7 +28,7 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 ### 1.2.0 (2026-09-15)
 
-- Neu: **Smart Select** — Ebenen nach ihren Eigenschaften finden und auswaehlen, statt sie im Ebenenbaum zu suchen. Zeigt Farben mit ihrem Swatch-Namen (auch aus Libraries), Overrides und Symbol-Eigenschaften in einer filterbaren Tabelle.
+- Neu: **Smart Select** — Ebenen nach ihren Eigenschaften finden und auswählen, statt sie im Ebenenbaum zu suchen. Zeigt Farben mit ihrem Swatch-Namen (auch aus Libraries), Overrides und Symbol-Eigenschaften in einer filterbaren Tabelle.
 
 ### 1.1.2 (2026-07-14)
 
