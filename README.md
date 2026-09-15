@@ -20,7 +20,7 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 | Tool | Shortcut | Was es tut |
 |---|---|---|
-| Smart Select | `ctrl shift s` | Findet und selektiert Ebenen nach ihren Eigenschaften: Farben (mit Swatch-Namen, auch aus Libraries), Overrides, Symbol-Master, Groessen und Textinhalte. Filterbare Tabelle statt Suche im Ebenenbaum. |
+| Smart Select | `ctrl shift s` | Findet und selektiert Ebenen nach ihren Eigenschaften: Farben (mit Swatch-Namen, auch aus Libraries), Overrides, Symbol-Master, Größen und Textinhalte. Filterbare Tabelle statt Suche im Ebenenbaum. |
 | Anonymize | `ctrl shift x` | Anonymisiert Text- und Symbol-Override-Inhalte formaterhaltend (Xxx 00 / Lorem / Blackout / aus Text). Erkennt Einheiten und lässt sie stehen; mehrdeutige Tokens werden im Review-Panel abgefragt (mit ↗ Sprung zur Fundstelle im Canvas). |
 | Contrast Measure | `ctrl shift k` | Misst WCAG-2.1-Kontrast (+ ΔE2000-Farbabstand) für ein Vorder-/Hintergrund-Paar. Farben per Ein-Klick-Screen-Pipette, Hex oder aus der Selektion (Overrides + Symbol-Farben mit Swatch-Namen, inkl. Library). Ergebnis kopierbar. |
 
@@ -28,7 +28,7 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 ### 1.2.0 (2026-09-15)
 
-- Neu: **Smart Select** — Ebenen nach ihren Eigenschaften finden und auswaehlen, statt sie im Ebenenbaum zu suchen. Zeigt Farben mit ihrem Swatch-Namen (auch aus Libraries), Overrides und Symbol-Eigenschaften in einer filterbaren Tabelle.
+- Neu: **Smart Select** — Ebenen nach ihren Eigenschaften finden und auswählen, statt sie im Ebenenbaum zu suchen. Zeigt Farben mit ihrem Swatch-Namen (auch aus Libraries), Overrides und Symbol-Eigenschaften in einer filterbaren Tabelle.
 
 ### 1.1.2 (2026-07-14)
 
