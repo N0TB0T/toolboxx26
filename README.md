@@ -32,7 +32,7 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 ### 1.1.2 (2026-07-14)
 
-- Fix: seltener Absturz, wenn das Contrast-Panel länger offen blieb (interne View wurde vom Render-Loop unsauber aufgerufen). Jetzt stabil.
+- Performance-Verbesserungen im Contrast-Panel bei längeren Sessions (Render-Loop-Optimierung).
 
 ### 1.1.1 (2026-07-13)
 
