@@ -20,7 +20,7 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 | Tool | Shortcut | Was es tut |
 |---|---|---|
-| Smart Select | `ctrl shift s` | Findet und selektiert Ebenen nach ihren Eigenschaften: Farben (mit Swatch-Namen, auch aus Libraries), Overrides, Symbol-Master, Groessen und Textinhalte. Filterbare Tabelle statt Suche im Ebenenbaum. |
+| Smart Select | `ctrl shift s` | Findet und selektiert Ebenen nach ihren Eigenschaften: Farben (mit Swatch-Namen, auch aus Libraries), Overrides, Symbol-Master, Größen und Textinhalte. Filterbare Tabelle statt Suche im Ebenenbaum. |
 | Anonymize | `ctrl shift x` | Anonymisiert Text- und Symbol-Override-Inhalte formaterhaltend (Xxx 00 / Lorem / Blackout / aus Text). Erkennt Einheiten und lässt sie stehen; mehrdeutige Tokens werden im Review-Panel abgefragt (mit ↗ Sprung zur Fundstelle im Canvas). |
 | Contrast Measure | `ctrl shift k` | Misst WCAG-2.1-Kontrast (+ ΔE2000-Farbabstand) für ein Vorder-/Hintergrund-Paar. Farben per Ein-Klick-Screen-Pipette, Hex oder aus der Selektion (Overrides + Symbol-Farben mit Swatch-Namen, inkl. Library). Ergebnis kopierbar. |
 
@@ -28,14 +28,14 @@ Nach der Installation benachrichtigt Sketch automatisch, wenn eine neue Version 
 
 ### 1.2.1 (2026-09-15)
 
-- Fix: **Smart Select** liess sich nach einem Abbruch nicht mehr schliessen — das Fenster blieb stehen, seine Knoepfe reagierten nicht, und Sketch war nur per Force Quit wieder nutzbar. Jeder Rueckweg schliesst das Panel jetzt, bevor er aufraeumt.
-- Fix: **Smart Select** durchsuchte alle Seiten, konnte aber nur auf der aktuellen auswaehlen — Treffer auf anderen Seiten wurden gezaehlt und dann verworfen. Der Bereich heisst jetzt ehrlich \u201ePage\u201c und durchsucht genau die.
-- Fix: **Smart Select** — der Umschalter \u201egek\u00fcrzt / vollst\u00e4ndig\u201c blieb bei Override-Zeilen wirkungslos; der volle Pfad stand nur im Tooltip.
+- Fix: **Smart Select** ließ sich nach einem Abbruch nicht mehr schließen — das Fenster blieb stehen, seine Knöpfe reagierten nicht, und Sketch war nur per Force Quit wieder nutzbar. Jeder Rückweg schließt das Panel jetzt, bevor er aufräumt.
+- Fix: **Smart Select** durchsuchte alle Seiten, konnte aber nur auf der aktuellen auswählen — Treffer auf anderen Seiten wurden gezählt und dann verworfen. Der Bereich heißt jetzt ehrlich „Page“ und durchsucht genau die.
+- Fix: **Smart Select** — der Umschalter „gekürzt / vollständig“ blieb bei Override-Zeilen wirkungslos; der volle Pfad stand nur im Tooltip.
 - Intern: 14 stumme Fehlerpfade in den Panels von Anonymize und Contrast Measure melden sich jetzt im Log, statt Fehler zu verschlucken.
 
 ### 1.2.0 (2026-09-15)
 
-- Neu: **Smart Select** — Ebenen nach ihren Eigenschaften finden und auswaehlen, statt sie im Ebenenbaum zu suchen. Zeigt Farben mit ihrem Swatch-Namen (auch aus Libraries), Overrides und Symbol-Eigenschaften in einer filterbaren Tabelle.
+- Neu: **Smart Select** — Ebenen nach ihren Eigenschaften finden und auswählen, statt sie im Ebenenbaum zu suchen. Zeigt Farben mit ihrem Swatch-Namen (auch aus Libraries), Overrides und Symbol-Eigenschaften in einer filterbaren Tabelle.
 
 ### 1.1.2 (2026-07-14)
 
