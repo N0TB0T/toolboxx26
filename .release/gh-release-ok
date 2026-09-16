@@ -1,0 +1,27 @@
+# Warum dieses Projekt `gh release create` benutzen darf
+
+Der Hook `guard-forbidden-commands.sh` sperrt `gh release create`, damit
+niemand am Publish-Pfad eines Web-Projekts vorbei released — dort liefen sonst
+Build, Test und Deploy-Action daran vorbei.
+
+**toolboxx26 ist das Distributions-Repo dazu und hat diesen Pfad nicht.** Es ist ein Sketch-Plugin:
+
+- kein `scripts/build_<platform>.sh`, keine Deploy-Action, kein Cloudflare-Ziel
+- gebaut wird lokal mit `scripts/build-release.js` (skpm)
+- ausgeliefert wird ein Zip im Repo `toolboxx26`, ueber den Sparkle-Feed
+  `appcast.xml` — Sketch holt Updates von dort
+
+Das GitHub-Release ist hier deshalb kein Nebenweg, sondern der einzige, ueber
+den die oeffentliche App-Seite `toolboxx.notbot.net` aktualisiert wird: Sie
+haengt am Release, nicht am Push (`workflow/tech/publish-pipeline.md` §4).
+
+Ohne Release bleibt sie stumm auf altem Stand. Belegt am 260915: toolboxx26
+ging zweimal hintereinander raus (1.2.0 und 1.2.1), die Seite zeigte weiter den
+Stand vom 18.8. — ohne Fehlermeldung, weil nichts kaputt war. Beide Male wurde
+sie nur aktuell, weil jemand `_app_publish` von Hand aufgerufen hat.
+
+Owner-Entscheidung: https://log.notbot.net/~01H9 (260916)
+
+Erstellt wird das Release am Ende von `scripts/build-release.js`, nachdem das
+Release-Repo committet und gepusht ist; ein bestehendes Release wird nie
+ueberschrieben.
