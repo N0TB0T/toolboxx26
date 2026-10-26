@@ -1,0 +1,17 @@
+{
+  "inbox": [
+    {
+      "id": "ext-session-027Y",
+      "kind": "note",
+      "category": "work",
+      "prio": "N",
+      "tags": [],
+      "title": "Aufräumen in toolboxx26: 1 ungesichert nach Ende von toolboxx26-d3",
+      "body": "Die Session „toolboxx26-d3\" (pid-81871) ist um 261026 11:29 geendet und hat im Ordner `/Users/male/GIT/toolboxx26` ungesicherte Arbeit hinterlassen: 1 ungesichert. Im selben Ordner läuft keine andere Session mehr, die sie sichern könnte. Gemeldet hat das devdash.\n\nBetroffen:\n- ` M .gitignore`\n\nAufräumen mit dem Skill `cleanup` (`/cleanup`): prüfen, was davon zur beendeten Session gehört, sinnvoll committen und pushen, Reste benennen statt sie still zu löschen.",
+      "source": "session",
+      "at": "2026-10-26T10:29:19.255Z",
+      "status": "open",
+      "code": "027Y"
+    }
+  ]
+}
